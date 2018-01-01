@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Html5, Css, Js</title>
+	<!--[if lt IE 9]
+		<script></script>
+	[endif]-->
+	<link rel="stylesheet" type="text/css" href="css/site.css"/>
+</head>
+<body>
+	<header>
+-		<nav>
+-			<ul>
+-			<li><a href="/index.html">Home</a></li>
+-			<li><a href="/contact.html">Contact</a></li>
+-			<li><a href="/about.html">About</a></li>
+-			</ul>
+-		</nav>
+		<h1>Wow <i>HTML5</i> is there!</h1>
+	</header>
+	<section id="main">
+		<p>Paragraph <b>One</b></p>
+		<p><em>T</em>wo</p>
+		<p>3<strong>3</strong>3</p>
+		<form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form" id="gitHubSearchForm">
+			<label for="searchPhraseId">Search Phrase:</label>
+			<input type="text" name="searchPhrase" id="searchPhraseId"><br/>
+			<label for="useStarsId">Use Stars?</label>
+			<input type="checkbox" name="userStars" id="useStarsId" checked="true"><br/>
+			<label for="langChoiceId">Language:</label>
+			<select name="langChoice" id="langChoiceId">
+				<option>All</option>
+				<option selected="true">JavaScript</option>
+				<option>C#</option>
+				<option>Java</option>
+				<option>Ruby</option>
+			</select><br/>
+			<input type="submit" value="Search GitHub">
+		</form>
+		<div id="results" class="bordered-image">
+			<button id="toggleButton">Hide</button>			
+			<div id="resultList">This is the result list area...</div>
+		</div>
+		<p>Goto to <a href="http://Github.com">Github</a> now.</p>
+		<p><img src="img/Frangipani Flowers.jpg" class="bordered-image"/></p>
+		<div>
+			<p>More <span>data</span> to show &#65; &#x16F;</p>		
+		</div>
+	</section>
+	<footer>
+		&copy; 2018 k web llc
+	</footer>
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
