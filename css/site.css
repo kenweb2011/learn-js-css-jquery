@@ -1,0 +1,94 @@
+/* site.css */
+header, footer {
+	background-color: lightblue;
+	border: solid 1px purple;
+	font-family: 'Times New Roman', serif;
+}
+
+footer {
+	padding: 10px;
+	border-radius: 9px;
+}
+
+body {
+	font-family: Segoe UI, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	/* background-color: darkgreen; */
+}
+
+a {
+	color: green;
+}
+
+html body {
+	margin: 2px;
+	padding: 0;
+}
+
+header nav {
+	float: right;
+	margin-right: 5px;
+}
+
+header nav li {
+	display: inline;
+	font-size: 11px;
+}
+
+#results {
+	padding: 2px;
+	width: 470px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.simple-form {
+	padding: 2px;
+	width: 450px;
+	display: inline-block;
+	vertical-align: top;
+	/*
+	position: absolute;
+	border: 5px;
+	right: 5px;
+	*/
+}
+
+.bordered-image {
+	border: solid 5px #ff2;
+	border-radius: 2px;
+}
+
+.container {
+	width: 989px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 2px;
+}
+
+#main {
+	border: solid 1px #b0f;
+	border-radius: 5px;
+	color: #A02020;
+	margin: 15px 10px 5px 0px;
+	padding: 5px;
+}
+
+#main label {
+	font-weight: bold;
+}
+
+#main input[type=text],
+#main input[type=password],
+#main textarea,
+#main select {
+	width: 150px;
+}
+
+#main input[type=submit] {
+	background-color: green;
+	color: white;
+	border-radius: 15px;
+	padding: 3px
+	margin-top: 5px;
+}
